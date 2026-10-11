@@ -1,0 +1,14 @@
+{
+  "name": "supermailos",
+  "displayName": "SuperMailOS",
+  "version": "1.0.0",
+  "description": "Work your SuperMailOS business email from a conversation: triage unread mail, find emails and attachments, draft replies, track follow-ups, and send from your company address when you ask.",
+  "author": {
+    "name": "SuperMailOS",
+    "email": "hello@supermailos.com",
+    "url": "https://supermailos.com"
+  },
+  "homepage": "https://supermailos.com/docs/mcp",
+  "license": "MIT",
+  "keywords": ["email", "inbox", "business email", "mail", "drafts", "productivity"]
+}
