@@ -9,6 +9,7 @@
     "url": "https://supermailos.com"
   },
   "homepage": "https://supermailos.com/docs/mcp",
+  "repository": "https://github.com/SuperMailOS/plugin",
   "license": "MIT",
   "keywords": ["email", "inbox", "business email", "mail", "drafts", "productivity"],
   "extensions": {
