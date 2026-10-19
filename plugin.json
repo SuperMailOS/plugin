@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "supermailos",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Work your SuperMailOS business email from a conversation: triage unread mail, find emails and attachments, draft replies, track follow-ups, and send from your company address when you ask.",
   "author": {
     "name": "SuperMailOS",
@@ -92,11 +92,12 @@
             }
           ]
         },
+        "demo_recording_url": "https://supermailos.com/review/supermailos-chatgpt-review-walkthrough.mp4",
         "commerce": false,
         "commerce_description": "SuperMailOS does not sell anything through this plugin and processes no payments."
       },
       "publication": {
-        "release_notes": "Initial release: the SuperMailOS connector (search, read, triage, organize, draft and send) with skills for getting started, inbox triage, finding mail, writing replies and tracking follow-ups."
+        "release_notes": "Packaging update: install files for more assistants and plugin marketplaces. The SuperMailOS connector and its skills are unchanged."
       }
     }
   }

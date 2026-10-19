@@ -15,7 +15,7 @@ Default to a draft. Send only when the user clearly asks to send.
    - Match the thread's language and formality. Keep it short; most business replies are a few sentences.
    - Use only facts the user gave you or that are in the thread. Don't invent prices, dates, commitments, attachments or names. If something is missing, ask, or leave a clear placeholder such as `[confirm delivery date]` and tell the user.
    - Sign off the way the user signs their own messages in the thread, if they do. Don't invent a title, phone number or other signature details.
-4. **Save it as a draft** with `draft_reply` (`threadId`, `text`). By default it replies to the last sender. Set `replyAll: true` only when the user asks or when everyone on the thread clearly needs the answer, and say who will receive it. Add `cc` only when asked.
+4. **Save it as a draft** with `draft_reply` (`threadId`, `text`). By default it replies to the last sender (or to the Reply-To address that email named, such as the person who filled in a website form). Set `replyAll: true` only when the user asks or when everyone on the thread clearly needs the answer, and say who will receive it. Add `cc` only when asked.
 5. **Show the user** the text you saved and tell them it's waiting in their Drafts in SuperMailOS, where they can edit and send it.
 
 `draft_reply` saves a draft and sends nothing. Prefer it whenever the user said "draft", "write", "prepare" or didn't say "send".

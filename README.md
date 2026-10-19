@@ -18,6 +18,15 @@ SuperMailOS is managed business email on your own domains. This plugin connects 
 
 A SuperMailOS account (https://supermailos.com). The connection acts as you, with your current access: you see the mailboxes you can open in SuperMailOS, nothing more. Workspace owners and admins can reach every mailbox in their workspace.
 
+## Install
+
+- **Claude** (web, desktop, mobile): add SuperMailOS from the Claude directory.
+- **Claude Code**: `/plugin marketplace add SuperMailOS/plugin`, then `/plugin install supermailos@supermailos`.
+- **GitHub Copilot CLI**: `copilot plugin marketplace add SuperMailOS/plugin`, then `copilot plugin install supermailos@supermailos`.
+- **Gemini CLI**: `gemini extensions install https://github.com/SuperMailOS/plugin`.
+- **Cursor**: this repository is a Cursor plugin (`.cursor-plugin/plugin.json`).
+- **Any other MCP client**: connect to `https://supermailos.com/mcp` (Streamable HTTP). Clients with OAuth sign in to SuperMailOS in the browser; others send a SuperMailOS API key as `Authorization: Bearer smk_...`. Setup for each app: https://supermailos.com/docs/mcp. Step-by-step for an assistant installing it: [llms-install.md](llms-install.md).
+
 ## Use it
 
 After installing, connect SuperMailOS and approve the sign-in. Then try:

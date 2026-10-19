@@ -1,0 +1,10 @@
+{
+  "name": "supermailos",
+  "version": "1.0.1",
+  "description": "Work your SuperMailOS business email: triage unread mail, find emails and attachments, draft replies, track follow-ups, and send when you ask.",
+  "mcpServers": {
+    "supermailos": {
+      "httpUrl": "https://supermailos.com/mcp"
+    }
+  }
+}

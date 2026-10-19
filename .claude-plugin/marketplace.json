@@ -1,0 +1,24 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "supermailos",
+  "description": "The SuperMailOS plugin: your business email from a conversation.",
+  "owner": {
+    "name": "SuperMailOS",
+    "email": "hello@supermailos.com"
+  },
+  "plugins": [
+    {
+      "name": "supermailos",
+      "displayName": "SuperMailOS",
+      "description": "Work your SuperMailOS business email from a conversation: triage unread mail, find emails and attachments, draft replies, track follow-ups, and send from your company address when you ask.",
+      "version": "1.0.1",
+      "author": {
+        "name": "SuperMailOS",
+        "email": "hello@supermailos.com"
+      },
+      "source": "./",
+      "category": "productivity",
+      "homepage": "https://supermailos.com/docs/mcp"
+    }
+  ]
+}

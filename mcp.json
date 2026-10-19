@@ -3,15 +3,7 @@
   "mcpServers": {
     "supermailos": {
       "type": "streamable-http",
-      "url": "https://supermailos.com/mcp",
-      "extensions": {
-        "com.openai": {
-          "auth": {
-            "type": "oauth",
-            "client": { "mode": "cimd" }
-          }
-        }
-      }
+      "url": "https://supermailos.com/mcp"
     }
   }
 }
